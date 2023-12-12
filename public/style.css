@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+#intro {
+  background-color: #e72463;
+  color: #ffffff;
+  height: 50px;
+}
+
+body {
+  font: 20px;
+}
+
+form {
+  background: #000000;
+  padding: 1px;
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+}
+
+form input {
+  background-color: #e6ffe6;
+  border: 0;
+  padding: 10px;
+  width: 93%;
+  margin-right: 0.5%;
+}
+
+form button {
+  width: 6%;
+  background: #e98aa6;
+  border: none;
+  padding: 7px;
+  font-size: 16px;
+  /* border-radius: 3px; Thêm border-radius để làm cho viền cong nhẹ */
+  /* border-width: 1px; Đặt độ rộng của viền */
+  /* border-style: solid; Đặt kiểu của viền */
+}
+
+#messages {
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #ffe1fc;
+}
+
+#list {
+  text-align: right;
+}
+
+/* Chỉnh kích thước font-size cho chữ "ChatRoom" */
+#intro h1 {
+  font-size: 30px;
+  align-self: center;
+  margin: 0;
+}
+
+/* Chỉnh kích thước font-size cho nút toggle-chat */
+#toggle-chat {
+  font-size: 20px;
+}
+
+/* Trong file style.css hoặc một file CSS riêng */
+.back-button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* .back-button:hover {
+  background-color: #0056b3;
+} */
